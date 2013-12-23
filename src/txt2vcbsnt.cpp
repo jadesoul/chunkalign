@@ -20,14 +20,14 @@ int main (int argc, char** argv) {
 		str corpus=argv[i];
 		path ptxt(corpus+".txt"), pvcb(corpus+".vcb"), psnt(corpus+".snt");
 		if (ptxt.isfile() AND ptxt.fsize()>0) {
-			vocabulary voc;
+			Vocabulary voc;
 			ifstream iftxt(ptxt.tocstr()), iftxt2(ptxt.tocstr());
 			ofstream ofvcb(pvcb.tocstr()), ofsnt(psnt.tocstr());
 			datetime start;
 			voc.scan(iftxt);
 			clog<<"finish scan txt in: "<<start.update()<<"s"<<endl;
 			ofvcb<<voc;
-			clog<<"finish save vocabulary in: "<<start.update()<<"s"<<endl;
+			clog<<"finish save Vocabulary in: "<<start.update()<<"s"<<endl;
 			string line;
 			while (getline(iftxt2, line)) {
 				sentence snt;

@@ -19,7 +19,7 @@ int main (int argc, char** argv) {
 	str src=argv[1], tgt=argv[2];
 	path psrc(src+".vcb"), ptgt(tgt+".vcb"), psrc2tgt(src(0, 1)+"2"+tgt[0]+".evcb"), ptgt2src(tgt(0, 1)+"2"+src[0]+".evcb");
 	if (psrc.isfile() AND ptgt.isfile()) {
-		vocabulary vsrc, vtgt;
+		Vocabulary vsrc, vtgt;
 		ifstream ifsrc(psrc.tocstr()), iftgt(ptgt.tocstr());
 		ofstream ofsrc2tgt(psrc2tgt.tocstr()), oftgt2src(ptgt2src.tocstr());
 		datetime start;
