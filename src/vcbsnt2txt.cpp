@@ -20,7 +20,7 @@ int main (int argc, char** argv) {
 		str corpus=argv[i];
 		path pvcb(corpus+".vcb"), psnt(corpus+".snt"), ptxt(corpus+".txt");
 		if (pvcb.isfile() AND pvcb.fsize()>0 AND psnt.isfile() AND psnt.fsize()>0) {
-			vocabulary voc;
+			Vocabulary voc;
 			ifstream ifvcb(pvcb.tocstr()), ifsnt(psnt.tocstr());
 			ifvcb>>voc;
 			ofstream oftxt(ptxt.tocstr());
