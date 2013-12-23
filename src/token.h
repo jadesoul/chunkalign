@@ -10,7 +10,6 @@
  * Written In: Peking University, beijing, China
  */
 
-#include <libsoul>
 #include "indexer.h"
 
 //a token is the string expression a word

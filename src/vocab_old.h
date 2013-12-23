@@ -10,7 +10,6 @@
  * Written In: Peking University, beijing, China
  */
 
-#include <libsoul>
 #include "word.h"
 #include "token.h"
 

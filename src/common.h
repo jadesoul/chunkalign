@@ -10,7 +10,7 @@
  * Written In: Peking University, beijing, China
  */
 
-#include <libsoul>
+#include <libsoul/libsoul.h>
 
 //matrix 2d, each cell is a value
 template<class T>

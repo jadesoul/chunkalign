@@ -10,7 +10,7 @@
  * Written In: Peking University, beijing, China
  */
 
-#include <libsoul>
+
 #include "config.h"
 #include "probdict.h"
 

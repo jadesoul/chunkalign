@@ -7,8 +7,7 @@
  * Date: 2013-01-05 20:29:01.291149
  * Written In: Peking University, beijing, China
  */
- 
-#include <libsoul>
+
 #include "vocab.h"
 #include "sent.h"
 

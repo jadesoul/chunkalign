@@ -10,6 +10,6 @@
  * Written In: Peking University, beijing, China
  */
 
-#include <libsoul>
+
 
 #endif /* COOC_H_1357313619_74 */

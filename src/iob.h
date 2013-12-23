@@ -10,7 +10,7 @@
  * Written In: Peking University, beijing, China
  */
 
-#include <libsoul>
+
 #include "indexer.h"
 
 enum IOBTagID {

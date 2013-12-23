@@ -8,7 +8,6 @@
  * Written In: Peking University, beijing, China
  */
 
-#include <libsoul>
 #include "vocab.h"
 #include "sent.h"
 

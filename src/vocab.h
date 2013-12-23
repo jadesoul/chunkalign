@@ -10,7 +10,6 @@
  * Written In: Peking University, beijing, China
  */
 
-#include <libsoul>
 #include "token.h"
 
 class Vocabulary : public TokenIndexer {
